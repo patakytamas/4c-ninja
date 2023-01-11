@@ -3,5 +3,3 @@
   //import QrCode from 'svelte-qrcode';
   // export let value
 </script>
-
-maci
