@@ -23,9 +23,9 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "prebuild": "rm -rf dist",
+    "prebuild-old": "rm -rf dist",
     "watch": "tsup src/*.ts --watch ",
-    "build": "tsup src/*.ts",
+    "build-old": "tsup src/*.ts",
     "lint": "TIMING=1 eslint src/**/*.ts* --fix",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "prettier": "prettier --check src/",
