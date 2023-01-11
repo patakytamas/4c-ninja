@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist", // Your outDir,
+    "types": [
+      // ... your other types
+
+      "node"
+    ]
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "dist/**/*"]
+}

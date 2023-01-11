@@ -18,6 +18,10 @@ npm create skeleton-app@latest car-register
 git remote add origin https://github.com/patakytamas/mesterconsulting.git
 git push -u origin main
 
-pnpm add -D pocketbase stwui --filter="car-register"
+pnpm add -D stwui @repo/ui @repo/config @repo/shared --filter="car-register"
+pnpm add -D @sveltejs/adapter-node --filter="car-register"
 
+pnpm add -D stwui @skeletonlabs/skeleton @repo/config @repo/shared --filter="ui"
+
+pnpm add -D pocketbase @repo/shared --filter="config"
 ```

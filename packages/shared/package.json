@@ -1,0 +1,50 @@
+{
+  "name": "@repo/shared",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Tamas Pataky",
+  "description": "Typescript package for monorepo",
+  "type": "module",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/types.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./dist/index.cjs"
+    },
+    "./*": {
+      "import": "./src/*",
+      "require": "./dist/*.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "watch": "tsup src/*.ts --watch ",
+    "build": "tsup src/*.ts",
+    "lint": "TIMING=1 eslint src/**/*.ts* --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "prettier": "prettier --check src/",
+    "prettier:fix": "prettier --write src/",
+    "lint:fix": "pnpm lint --fix",
+    "verify": "run-p prettier lint",
+    "verify:fix": "pnpm prettier:fix && pnpm lint:fix"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-custom": "workspace:^0.0.1",
+    "path": "^0.12.7",
+    "pocketbase": "^0.9.1",
+    "tsup": "^5.10.1",
+    "typescript": "^4.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,25 @@
+const labels = {
+	id: 'Sorszám',
+	model: 'Modell név',
+	financier: 'Finanszírozó neve',
+	kw: 'Kw',
+	fee_type: 'Illeték mentes vagy sem',
+	type: 'Fajta',
+	subtraction_type: 'Kivonás',
+	pieces: 'Darabszám',
+	kw_fee: 'Kw díj',
+	fee: 'Átírási illeték',
+	traffic: 'Forgalmi',
+	pedigree: 'Törzskönyv',
+	plate_fee: 'Rendszám',
+	deduction: 'Levonás (ha illeték mentes)',
+	subtraction: 'Kivonás',
+	cost: 'Egyéb költség vagy levonás',
+	sum: 'Kiadható összesen',
+	k2d: 'Ügyfél k2d id',
+	chassis: 'Alvázszám (teljes)',
+	date: 'Dátum',
+	plate_number: 'Rendszám',
+	note: 'Megjegyzés'
+};
+export const label = (key: string): string => labels[key] || key;
