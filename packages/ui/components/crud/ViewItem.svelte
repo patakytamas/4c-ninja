@@ -5,7 +5,7 @@
 </script>
 
 {#each fields as field}
-  <dl class="list-dl">
+  <dl class="list-dl m-10">
     <div>
       <span class="flex-auto">
         <dt class=""><h4>{label(field)}</h4></dt>

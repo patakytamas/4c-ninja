@@ -33,7 +33,7 @@
 	</Col>
 
 	<Col class="col-12">
-		<QrCode value={data.item.chassis} />
+		<QrCode value="cica" />
 		<ViewItem fields={right} data={data.item} />
 		<ViewItem fields={right2} data={data.item} />
 	</Col>

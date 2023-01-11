@@ -1,6 +1,7 @@
 <script>
-  import QrCode from 'svelte-qrcode';
-  export let value;
+  import { browser } from '$app/environment';
+  //import QrCode from 'svelte-qrcode';
+  // export let value
 </script>
 
-<QrCode {value} />
+maci
