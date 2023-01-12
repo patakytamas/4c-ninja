@@ -2,7 +2,13 @@ import type { MenuItem, Page } from './types';
 import * as i from './icons';
 
 export const pages = [
-	{ key: 'home', label: 'Home', href: '/', icon: i.menu },
+	{ key: 'home', label: 'Home', href: '/' },
+	{
+		key: 'lesson1',
+		label: 'Lesson 1.',
+		href: '/lessons/lesson1',
+		icon: i.book
+	},
 	{ key: 'cars', label: 'Lista', href: '/cars', icon: i.menu },
 	{ key: 'cars_new', label: 'Új', href: '/cars/new', icon: i.menu },
 	{

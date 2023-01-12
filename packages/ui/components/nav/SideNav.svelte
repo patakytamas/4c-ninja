@@ -25,6 +25,7 @@
                 key={child.key}
                 label={child.label}
                 href={child.href}
+                icon={child.icon}
                 on:click={() => (active = `{item.key}-{child.key}`)}
               />
             {/each}
@@ -36,6 +37,7 @@
                 key={child.key}
                 label={child.label}
                 href={child.href}
+                icon={child.icon}
                 on:click={() => (active = `{item.key}-{child.key}`)}
               />
             {/each}
@@ -79,9 +81,4 @@
       {/if}
     {/each}
   </Menu>
-</Row>
-<Row>
-  <form action="/logout" method="POST">
-    <button type="submit" class="btn btn-sm btn-ghost-surface">Logout</button>
-  </form>
 </Row>

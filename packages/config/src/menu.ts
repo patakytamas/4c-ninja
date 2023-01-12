@@ -3,19 +3,8 @@ import type { MenuItem } from './types';
 import { getPages, getPageGroup } from './pages';
 
 export const sideMenu: MenuItem[] = [
-	...getPages(['home']),
-	{
-		key: 'cars',
-		label: 'Átirások',
-		href: '#',
-		children: getPageGroup('/cars')
-	},
-	{
-		key: 'partners',
-		label: 'Partnerek',
-		href: '#',
-		children: getPageGroup('/partners')
-	}
+	...getPages(['lesson1'])
+
 	/*
 	{
 		key: 'tests',

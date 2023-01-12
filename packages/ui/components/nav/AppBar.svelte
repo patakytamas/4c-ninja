@@ -11,7 +11,7 @@
 <AppBar>
   <svelte:fragment slot="lead">
     <a href="/">
-      <strong class="text-xl uppercase">Car register</strong>
+      <strong class="text-xl uppercase">4c-Ninja - Roblox course</strong>
     </a>
   </svelte:fragment>
   <svelte:fragment slot="trail">
@@ -20,22 +20,6 @@
       class="lg:hidden btn btn-sm btn-ghost-surface"
     >
       <Icon data={menuOpen} />
-      maci
     </div>
-
-    {#if !userLogedIn}
-      <a class="btn btn-sm btn-ghost-surface" href="/login" target="_blank" rel="noreferrer"
-        >Login</a
-      >
-      <a class="btn btn-sm btn-ghost-surface" href="/register" target="_blank" rel="noreferrer"
-        >Register</a
-      >
-    {:else}
-      <a class="btn btn-sm btn-ghost-surface" href="/cars/new" rel="noreferrer">Új átírás</a>
-
-      <form action="/logout" method="POST">
-        <button type="submit" class="btn btn-sm btn-ghost-surface">Logout</button>
-      </form>
-    {/if}
   </svelte:fragment>
 </AppBar>
