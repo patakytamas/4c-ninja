@@ -3,10 +3,29 @@ import * as i from './icons';
 
 export const pages = [
 	{ key: 'home', label: 'Home', href: '/' },
+	{ key: 'prepare', label: 'Prepare', href: '/prepare' },
 	{
 		key: 'lesson1',
-		label: 'Lesson 1.',
-		href: '/lessons/lesson1',
+		label: 'Lesson 1. - Project setup',
+		href: '/lesson1',
+		icon: i.book
+	},
+	{
+		key: 'lesson2',
+		label: 'Lesson 2. - Creating and Placing Parts',
+		href: '/lesson2',
+		icon: i.book
+	},
+	{
+		key: 'lesson3',
+		label: 'Lesson 3. - Scaling and Rotating Parts',
+		href: '/lesson3',
+		icon: i.book
+	},
+	{
+		key: 'lesson4',
+		label: 'Lesson 4. - Polishing and Sharing',
+		href: '/lesson4',
 		icon: i.book
 	},
 	{ key: 'cars', label: 'Lista', href: '/cars', icon: i.menu },

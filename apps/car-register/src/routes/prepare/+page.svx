@@ -1,0 +1,31 @@
+<script>
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
+
+</script>
+
+## Create Roblox account
+Click on this link: https://www.roblox.com/  
+Then press `Sign up`
+<br>
+
+> ### Username: 4cninja and your number i.e. 4cninja2
+### Password: orchidea4c
+
+<br/>
+
+## Download Roblox Client
+Click on this link: https://www.roblox.com/ and press `Open`
+<br/>
+
+## Download Roblox Studio
+Click on this link: https://www.roblox.com/create and press `Start Creating`
+<br>
+
+## Tips
+Change window: `Alt` + `Tab`
+
+
+
+
+

@@ -1,0 +1,17 @@
+<script>
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
+	let src = 'https://create.roblox.com/docs/education/intro-to-studio/scaling-and-rotating-parts'
+
+</script>
+
+## Lesson 3. - Scaling and Rotating Parts
+<br>
+
+<div id="PlaceToPutTable"></div>
+<iframe id="iframe" {src}
+style="display:hidden;height: 600px;"
+class="w-full h-screen"
+></iframe>
+
+

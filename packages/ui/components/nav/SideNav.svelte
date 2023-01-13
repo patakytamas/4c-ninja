@@ -18,18 +18,20 @@
     {#each items as item}
       {#if item.children && item.children.length > 0}
         {#if item.icon}
-          <Menu.Group key={item.key} label={item.label} href={item.href}>
-            <Menu.Item.Icon slot="icon" data={item.icon} />
-            {#each item.children as child}
-              <Menu.Group.Item
-                key={child.key}
-                label={child.label}
-                href={child.href}
-                icon={child.icon}
-                on:click={() => (active = `{item.key}-{child.key}`)}
-              />
-            {/each}
-          </Menu.Group>
+          <div class="mb-5">
+            <Menu.Group key={item.key} label={item.label} href={item.href}>
+              <Menu.Item.Icon slot="icon" data={item.icon} />
+              {#each item.children as child}
+                <Menu.Group.Item
+                  key={child.key}
+                  label={child.label}
+                  href={child.href}
+                  icon={child.icon}
+                  on:click={() => (active = `{item.key}-{child.key}`)}
+                />
+              {/each}
+            </Menu.Group>
+          </div>
         {:else}
           <Menu.Group key={item.key} label={item.label} href={item.href}>
             {#each item.children as child}
@@ -54,14 +56,17 @@
           <Badge slot="extra" type={item.badgeType}>{item.badge}</Badge>
         </Menu.Item>
       {:else if item.icon}
-        <Menu.Item
-          key={item.key}
-          label={item.label}
-          href={item.href}
-          on:click={() => (active = item.key)}
-        >
-          <Menu.Item.Icon slot="icon" data={item.icon} />
-        </Menu.Item>
+        <div class="mb-5">
+          <br />
+          <Menu.Item
+            key={item.key}
+            label={item.label}
+            href={item.href}
+            on:click={() => (active = item.key)}
+          >
+            <Menu.Item.Icon slot="icon" data={item.icon} />
+          </Menu.Item>
+        </div>
       {:else if item.badge}
         <Menu.Item
           key={item.key}
