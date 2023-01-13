@@ -3,6 +3,7 @@ import * as i from './icons';
 
 export const pages = [
 	{ key: 'home', label: 'Home', href: '/' },
+	{ key: 'goal', label: 'Project goal', href: '/goal' },
 	{ key: 'prepare', label: 'Prepare', href: '/prepare' },
 	{
 		key: 'lesson1',

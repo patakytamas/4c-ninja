@@ -1,0 +1,15 @@
+<script lang="ts">
+	import { SkeletonPageDemo } from '@repo/ui/components';
+</script>
+
+# Project goal
+<br>
+
+<video controls class="w-full">
+	<source
+		src="https://prod.docsiteassets.roblox.com/assets/education/intro-to-studio/sample-obby-example-web.mp4"
+		type="video/mp4"
+	/>
+</video>
+<br>
+In an obby, short for obstacle course, players jump from object to object while avoiding obstacles to get to the end of a level. Missing a jump means falling to your doom.

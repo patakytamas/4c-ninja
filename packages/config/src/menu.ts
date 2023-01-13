@@ -3,7 +3,14 @@ import type { MenuItem } from './types';
 import { getPages, getPageGroup } from './pages';
 
 export const sideMenu: MenuItem[] = [
-	...getPages(['prepare', 'lesson1', 'lesson2', 'lesson3', 'lesson4'])
+	...getPages([
+		'goal',
+		'prepare',
+		'lesson1',
+		'lesson2',
+		'lesson3',
+		'lesson4'
+	])
 
 	/*
 	{
