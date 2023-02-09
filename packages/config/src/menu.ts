@@ -4,6 +4,7 @@ import { getPages, getPageGroup } from './pages';
 
 export const sideMenu: MenuItem[] = [
 	...getPages([
+		'hall-of-fame',
 		'goal',
 		'prepare',
 		'lesson1',

@@ -1,0 +1,30 @@
+<script lang="ts">
+	
+</script>
+
+# Hall of Fame
+<br>
+
+## Number #1.  - Score:
+<div class="placeholder-circle w-16" />
+<div class="placeholder " />
+<br>
+
+## Number #2.  - Score: 
+<div class="placeholder-circle w-16" />
+<div class="placeholder " />
+<br>
+
+## Number #3.  - Score: 
+<div class="placeholder-circle w-16" />
+<div class="placeholder " />
+<br>
+
+## Number #4.  - Score: 
+<div class="placeholder-circle w-16" />
+<div class="placeholder " />
+<br>
+
+## Number #5.  - Score: 
+<div class="placeholder-circle w-16" />
+<div class="placeholder " />

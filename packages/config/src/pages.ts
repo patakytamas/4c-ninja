@@ -4,6 +4,11 @@ import * as i from './icons';
 export const pages = [
 	{ key: 'home', label: 'Home', href: '/' },
 	{ key: 'goal', label: 'Project goal', href: '/goal' },
+	{
+		key: 'hall-of-fame',
+		label: 'Hall of Fame',
+		href: '/hall-of-fame'
+	},
 	{ key: 'prepare', label: 'Prepare', href: '/prepare' },
 	{
 		key: 'lesson1',
