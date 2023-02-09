@@ -1,0 +1,17 @@
+<script>
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
+	let src = 'https://create.roblox.com/docs/education/coding-1/parents-and-children'
+
+</script>
+
+## Lesson 7. - Parents and children
+<br>
+
+<div id="PlaceToPutTable"></div>
+<iframe id="iframe" {src}
+style="display:hidden;height: 600px;"
+class="w-full h-screen"
+></iframe>
+
+

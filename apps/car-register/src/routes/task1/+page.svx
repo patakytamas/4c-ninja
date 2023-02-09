@@ -1,0 +1,33 @@
+<script>
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
+	
+
+</script>
+
+## A feladat:
+Van két számunk. Pl. 2 és 5
+
+1. adjuk össze őket, pl: 2+5
+2. az eredményt szorozzuk be az első számmal, pl: (2+5)*2
+3. vonjuk ki belőle a második számot, pl: (2+5)x2-5
+4. az egészet szorozzuk be az első és a második szám összegével ((2+5)x2-5)x(2+5)
+
+<br>
+Ezt csináljuk meg a következő számokkal:
+9 és 14
+85 és 96
+4320 és 6750
+
+<style>
+ol {
+	list-style: number
+}
+
+</style>
+
+
+
+
+
+

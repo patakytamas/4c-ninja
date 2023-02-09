@@ -29,6 +29,30 @@ export const pages = [
 		href: '/lesson4',
 		icon: i.book
 	},
+	{
+		key: 'lesson5',
+		label: 'Lesson 5. - Creating a script',
+		href: '/lesson5',
+		icon: i.book
+	},
+	{
+		key: 'task1',
+		label: 'Task 1. - Counting',
+		href: '/task1',
+		icon: i.book
+	},
+	{
+		key: 'lesson6',
+		label: 'Lesson 6. - Object properties',
+		href: '/lesson6',
+		icon: i.book
+	},
+	{
+		key: 'lesson7',
+		label: 'Lesson 7. - Parents and children',
+		href: '/lesson7',
+		icon: i.book
+	},
 	{ key: 'cars', label: 'Lista', href: '/cars', icon: i.menu },
 	{ key: 'cars_new', label: 'Új', href: '/cars/new', icon: i.menu },
 	{

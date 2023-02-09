@@ -4,6 +4,40 @@
 
 </script>
 
+## Settings Roblox client
+https://create.roblox.com/docs/education/educator-onboarding/2-playing-on-roblox
+
+
+<a target="_blank" href="https://en.help.roblox.com/hc/en-us/articles/204473560-How-to-Install-and-Play-Roblox-Using-Browser">
+How to install and play roblox
+</a>
+
+<a target="_blank" href="https://prod.docsiteassets.roblox.com/assets/education/bltc42b6e3ef9608b3a/Safety_education_brochure.pdf">
+Roblox education for parents
+</a>
+
+<a target="_blank" href="https://corporate.roblox.com/parents/">
+Roblox parents
+</a>
+
+## For me
+<a target="_blank" href="https://en.help.roblox.com/hc/en-us/articles/203314160-How-Do-I-Take-a-Screenshot-">
+How to take screenshot
+</a>
+
+<a target="_blank" href="https://en.help.roblox.com/hc/en-us/articles/203314160-How-Do-I-Take-a-Screenshot-">
+How to record videos
+</a>
+
+<a target="_blank" href="https://create.roblox.com/docs/education/educator-onboarding/4-running-classrooms">
+Classroom tools
+</a>
+
+<a target="_blank" href="https://create.roblox.com/docs/production/publishing/groups#creating-a-new-group">
+Groups
+</a>
+
+
 ## Create Roblox account
 Click on this link: https://www.roblox.com/  
 Then press `Sign up`
