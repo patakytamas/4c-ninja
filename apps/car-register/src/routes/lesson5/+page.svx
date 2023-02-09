@@ -15,3 +15,5 @@ class="w-full h-screen"
 ></iframe>
 
 
+<a href="https://stevenpcurtis.medium.com/what-is-a-variable-3447ac1331b9">
+help</a>
