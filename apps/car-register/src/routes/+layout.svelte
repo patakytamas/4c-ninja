@@ -26,7 +26,7 @@
 
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Hidden below Tailwind's large breakpoint -->
-		<div id="sidebar-left" class="bg-surface-500/5 h-full w-56 p-4 hidden lg:block">
+		<div id="sidebar-left" class="bg-surface-500/5 h-full w-80 p-4 hidden lg:block">
 			<SideNav items={sideMenu} />
 		</div>
 	</svelte:fragment>

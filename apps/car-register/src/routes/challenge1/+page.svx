@@ -2,6 +2,7 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 	import Seriously from '$lib/components/Seriously.svelte';
+	import Confetti  from "$lib/components/Confetti.svelte"
 
 	const calculate = (num1, num2) => {
 		let result = num1+num2
@@ -25,7 +26,17 @@
 </script>
 
 
-## A feladat:
+## A küldetés:
+Egy szigorúan titkos ügynök vagy, akit azért alkalmaztak, mert a kódolói képességével 
+bármit meg tud hackelni. A gonosz Z professzor el akarja pusztítani a világot saját 
+rakétájával. Egy titkos széfben őrzi a kódot, amivel le lehet állítani a rakétát.
+Tony Stark csapata szerzett néhány információt, aminek a segítségével megszerezheted a páncélszekrény kódját.
+A világ sorsa a kezedben van! Íme az információk:
+<br>
+A kód három számból áll. Minden számhoz van két szám amiknek a segítségével megkaphatod a keresett számot.
+Írd be az eredményeket a lenti mezőkbe, hogy kinyithasd a széfet!
+<br>
+<br>
 Van két számunk. Pl. 2 és 5
 
 1. adjuk össze őket, pl: 2+5
@@ -38,7 +49,7 @@ Ezt csináljuk meg a következő számokkal:<br>
 - 9 és 14 <br>  
 - 85 és 96 <br>
 - 34 és 102 <br>
-
+<br>
 
 {#if success}
 <Seriously>
@@ -46,10 +57,11 @@ Ezt csináljuk meg a következő számokkal:<br>
 ### Gratulálok!
 
 ```
-	Mind a három számot eltaláltad!
+	Sikerült kinyitni a széfet! Megmentetted a világot!
 ```
 
 </Seriously>
+<Confetti />
 {/if}
 <div class="form-control w-full max-w-lg mb-2">
   <label  class="label font-medium pb-1">

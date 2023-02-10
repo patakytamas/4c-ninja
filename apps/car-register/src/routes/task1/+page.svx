@@ -2,68 +2,60 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 	import Seriously from '$lib/components/Seriously.svelte';
+	import Confetti  from "$lib/components/Confetti.svelte"
 
 	const calculate = (num1, num2) => {
-		let result = num1+num2
-		result = result * num1
-		result = result - num2
-		result = result *(num1 + num2)
+		let result = num2-num1
+		result = result * num2
 		return result
 	}
-	let number1 = calculate(9, 14)
-	let number2 = calculate(85, 96)
-	let number3 = calculate(34, 102)
+	let number1 = calculate(5, 2)
+	let number2 = calculate(6, 3)
 
 	let value1, value2, value3
 
 	$: success = (
 		value1 === number1 
 		&& value2 === number2 
-		&& value3 === number3 
 		)
 
 </script>
 
 
 ## A feladat:
-Van két számunk. Pl. 2 és 5
+Van két számunk. Pl. 5 és 2
 
-1. adjuk össze őket, pl: 2+5
-2. az eredményt szorozzuk be az első számmal, pl: (2+5)x2
-3. vonjuk ki belőle a második számot, pl: (2+5)x2-5
-4. az egészet szorozzuk be az első és a második szám összegével ((2+5)x2-5)x(2+5)
+1. vonjuk ki az elsőből a másodikat, pl: 5-2
+2. az eredményt szorozzuk be a második számmal, pl: (5-2)x2
+3. Irjuk ki a végeredményt
+4. Az eredményt másoljuk be a lenti eredmény mezőkbbe
 
 <br>
+
 Ezt csináljuk meg a következő számokkal:<br>
-- 9 és 14 <br>  
-- 85 és 96 <br>
-- 34 és 102 <br>
+- 5 és 2 <br>  
+- 6 és 3 <br>
+
 
 
 {#if success}
-<Seriously>
+<Confetti />
 
-### Gratulálok!
-
-```
-	Mind a három számot eltaláltad!
-```
-
-</Seriously>
 {/if}
+<br>
 <div class="form-control w-full max-w-lg mb-2">
   <label  class="label font-medium pb-1">
-    <span class="label-text">Ide írd az eredményt az első számpárnál: (9 és 14)</span>
+    <span class="label-text">Ide írd az eredményt az első számpárnál: (5 és 2)</span>
   </label>
  <input
     type='number'
 		bind:value={value1}
     />
 </div>
-
+<br>
 <div class="form-control w-full max-w-lg mb-2">
   <label  class="label font-medium pb-1">
-    <span class="label-text">Ide írd az eredményt a második számpárnál: (85 és 96)</span>
+    <span class="label-text">Ide írd az eredményt a második számpárnál: (6 és 3)</span>
   </label>
  <input
     type='number'
@@ -71,15 +63,17 @@ Ezt csináljuk meg a következő számokkal:<br>
     />
 </div>
 
-<div class="form-control w-full max-w-lg mb-2">
-  <label  class="label font-medium pb-1">
-    <span class="label-text">Ide írd az eredményt a harmadik számpárnál: (34 és 102)</span>
-  </label>
- <input
-    type='number'
-		bind:value={value3}
-    />
-</div>
+A megoldás:
+```lua
+local firstNumber = 5
+local secondNumber = 2
+local result
+result = firstNumber - secondNumber
+result = result * secondNumber
+print(result)
+```
+
+
 
 <style>
 ol {
