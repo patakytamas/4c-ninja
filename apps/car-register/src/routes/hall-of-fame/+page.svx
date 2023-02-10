@@ -5,26 +5,5 @@
 # Hall of Fame
 <br>
 
-## Number #1.  - Score:
-<div class="placeholder-circle w-16" />
-<div class="placeholder " />
-<br>
+## #1.  Áron - Score: 30
 
-## Number #2.  - Score: 
-<div class="placeholder-circle w-16" />
-<div class="placeholder " />
-<br>
-
-## Number #3.  - Score: 
-<div class="placeholder-circle w-16" />
-<div class="placeholder " />
-<br>
-
-## Number #4.  - Score: 
-<div class="placeholder-circle w-16" />
-<div class="placeholder " />
-<br>
-
-## Number #5.  - Score: 
-<div class="placeholder-circle w-16" />
-<div class="placeholder " />
