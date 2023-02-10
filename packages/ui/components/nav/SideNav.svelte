@@ -11,6 +11,9 @@
   function toggleCollapse() {
     collapsed = !collapsed;
   }
+  function drawerClose(): void {
+    drawerStore.close();
+  }
 </script>
 
 <Row>

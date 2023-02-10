@@ -44,7 +44,13 @@ export const pages = [
 		key: 'task1',
 		label: 'Task 1. - Counting',
 		href: '/task1',
-		icon: i.book
+		icon: i.edit
+	},
+	{
+		key: 'challenge1',
+		label: 'Challenge 1. - Counting',
+		href: '/challenge1',
+		icon: i.challenge
 	},
 	{
 		key: 'lesson6',

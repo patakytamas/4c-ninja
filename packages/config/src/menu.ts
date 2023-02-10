@@ -14,7 +14,8 @@ export const sideMenu: MenuItem[] = [
 		'lesson5',
 		'lesson6',
 		'lesson7',
-		'task1'
+		'task1',
+		'challenge1'
 	])
 
 	/*

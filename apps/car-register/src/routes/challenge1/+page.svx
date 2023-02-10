@@ -2,7 +2,6 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 	import Seriously from '$lib/components/Seriously.svelte';
-	import Confetti  from "$lib/components/Confetti.svelte"
 
 	const calculate = (num1, num2) => {
 		let result = num1+num2
@@ -18,9 +17,9 @@
 	let value1, value2, value3
 
 	$: success = (
-		value1 === 1 
-		&& value2 === 2 
-		&& value3 === 3
+		value1 === number1 
+		&& value2 === number2 
+		&& value3 === number3 
 		)
 
 </script>
@@ -42,7 +41,6 @@ Ezt csináljuk meg a következő számokkal:<br>
 
 
 {#if success}
-<Confetti />
 <Seriously>
 
 ### Gratulálok!
