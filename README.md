@@ -1,4 +1,9 @@
 # Open ai
+(https://slickgpt.vercel.app)
+
+api-key: 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
+
+# Google doc
 https://docs.google.com/presentation/d/1s4NCbNmFpeWjNB0fPy7AW9chiBvBntoVT9qlVa-KQBc/edit?usp=sharing 
 
 TurborepoSvelte starter
