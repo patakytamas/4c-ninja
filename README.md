@@ -1,4 +1,7 @@
-# Turborepo Svelte starter
+# Open ai
+https://docs.google.com/presentation/d/1s4NCbNmFpeWjNB0fPy7AW9chiBvBntoVT9qlVa-KQBc/edit?usp=sharing 
+
+TurborepoSvelte starter
 
 This is an official starter Turborepo.
 
