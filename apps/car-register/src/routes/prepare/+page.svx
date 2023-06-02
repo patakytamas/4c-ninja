@@ -3,6 +3,8 @@
 	import { onMount } from 'svelte';
 
 </script>
+## Open ai
+https://docs.google.com/presentation/d/1s4NCbNmFpeWjNB0fPy7AW9chiBvBntoVT9qlVa-KQBc/edit?usp=sharing
 
 ## Settings Roblox client
 https://create.roblox.com/docs/education/educator-onboarding/2-playing-on-roblox
